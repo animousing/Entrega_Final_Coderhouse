@@ -1,0 +1,3307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+/*
+------------------------------------------------------------------------------------------
+CONTENEDORES CON GRID DE TODAS LAS PAGINAS ---- CONTENEDORES CON GRID DE TODAS LAS PAGINAS
+CONTENEDORES CON GRID DE TODAS LAS PAGINAS ---- CONTENEDORES CON GRID DE TODAS LAS PAGINAS
+CONTENEDORES CON GRID DE TODAS LAS PAGINAS ---- CONTENEDORES CON GRID DE TODAS LAS PAGINAS
+-------------------------------------------------------------------------------------------
+*/
+
+/*
+-----------------------------------
+       CONTENEDOR DEL INDEX
+-----------------------------------
+*/
+
+.contenedor{
+    width: 95%;
+    max-width: 2500px; /*Ancho maximo de 1000px*/
+    margin: auto;
+    display: grid; /*Agregamos el Grid*/
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor .header{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 100%;
+}
+
+.contenedor .video{
+    background-color: white;
+    grid-column: span 5;
+    grid-row: 2 / 3;
+    height: 100%;
+}
+
+.contenedor .navegador{
+    background-color: black;
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    height: 933.45px;
+}
+
+.contenedor .cliente{
+    grid-column: span 7;
+    grid-row: 4 / 5;
+    padding: 20px;
+    height: 100%;
+}
+
+.contenedor .piePagina{
+    grid-column:span 6;
+    grid-row: 5 / 6;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+
+/*
+-----------------------------------
+       CONTENEDOR NOSOTROS
+-----------------------------------
+*/
+
+.contenedorNosotros{
+    width: 95%;
+    max-width: 2500px; /*Ancho maximo de 1000px*/
+    margin: auto;
+    display: grid; /*Agregamos el Grid*/
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedorNosotros .header{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 100%;
+}
+
+
+.contenedorNosotros .portada{
+    background-color: white;
+    grid-column: span 5;
+    height: 100%;
+}
+
+.contenedorNosotros .navegador{
+    background-color: black;
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    height: 933.45px;
+}
+
+.contenedorNosotros .descripcion{
+    grid-column: span 6;
+    padding: 20px;
+    height: 400px;
+    height: 100%;
+}
+
+.contenedorNosotros .piePagina{
+    grid-column:span 6;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 15px;
+    height: 100%;
+}
+
+/*
+-----------------------------------
+       CONTENEDOR SERVICIOS
+-----------------------------------
+*/
+
+.contenedorServicios{
+    width: 95%;
+    max-width: 2500px; /*Ancho maximo de 1000px*/
+    margin: auto;
+    display: grid; /*Agregamos el Grid*/
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedorServicios .header{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 100%;
+}
+
+
+.contenedorServicios .portada{
+    background-color: white;
+    grid-column: span 5;
+    height: 100%;
+}
+
+.contenedorServicios .navegador{
+    background-color: black;
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    height: 933.45px;
+}
+
+.contenedorServicios .descripcion{
+    grid-column: span 6;
+    padding: 20px;
+    height: 100%;
+}
+
+.contenedorServicios .piePagina{
+    grid-column:span 6;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 15px;
+    height: 100%;
+}
+
+
+/*
+-----------------------------------
+       CONTENEDOR TRABAJOS
+-----------------------------------
+*/
+
+.contenedorTrabajos{
+    width: 95%;
+    max-width: 2500px; /*Ancho maximo de 1000px*/
+    margin: auto;
+    display: grid; /*Agregamos el Grid*/
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedorTrabajos .header{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 100%;
+}
+
+
+.contenedorTrabajos .portada{ 
+    background-color: white;
+    grid-column: span 5;
+    height: 100%;
+}
+
+.contenedorTrabajos .navegador{
+    background-color: black;
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    height: 933.45px;
+}
+
+.contenedorTrabajos .descripcion{
+    grid-column: span 6;
+    padding: 20px;
+    height: 100%;
+}
+
+.contenedorTrabajos .piePagina{
+    grid-column:span 6;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 15px;
+    height: 100%;
+}
+
+
+/*
+-----------------------------------
+       CONTENEDOR CONTACTO
+-----------------------------------
+*/
+
+.contenedorContacto{
+    width: 95%;
+    max-width: 2500px; /*Ancho maximo de 1000px*/
+    margin: auto;
+    display: grid; /*Agregamos el Grid*/
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedorContacto .header{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 100%
+}
+
+
+.contenedorContacto .portada{
+    background-color: white;
+    grid-column: span 5;
+    height: 100%;
+}
+
+.contenedorContacto .navegador{
+    background-color: black;
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    height: 933.45px;
+}
+
+.contenedorContacto .descripcion{
+    grid-column: span 6;
+    padding: 20px;
+    height: 600px;
+}
+
+.contenedorContacto .piePagina{
+    grid-column:span 6;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+
+
+  /*
+ ------------------------------------------------------------
+ Se colocan las imagenes de mascotas y logos de clientes, 
+ una alado de otra en una fila, y se centra la etiqueta aside
+ -------------------------------------------------------------
+   */
+   .seccionCliente{
+    margin: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+ }
+
+    .decorCliente{
+        width: 33%;
+        height: 33%;
+        border-bottom: 3px solid rgb(224, 224, 224);
+        border-right: 3px solid rgb(224, 224, 224); 
+    }
+
+
+ /*
+-----------------------------------------------------------------
+Propiedades de margenes y tamaño a las imagenes de redes sociales
+-------------------------------------------------------------------
+*/
+.redesLogo{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+ }
+
+
+    #menu{
+        ul{
+    /*
+    ---------------------------------------------------------------------
+    Se alinean las opciones de botones del navegador en columna y se 
+    posicionan en el margen superior derecho
+    ----------------------------------------------------------------------
+    */       
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            line-height: 85px;
+             }
+
+             #item{
+
+                background-color: black;
+                color: white;
+                padding: 20px;
+    /*
+   ------------------------------------------------------------------------------
+   Propiedadesde color, tamaño y margenes del texto de las opciones del navegador
+   ------------------------------------------------------------------------------
+   */   
+                 a{
+                    text-decoration: none;
+                    color: white;
+                    text-align: center;
+                    font-size: 2.2em;
+                    margin: 100px;
+                 }
+             }
+      }
+
+        /*
+  --------------------------------------------------------------
+  Cuando me posiciono en cada una de las opciones del navegador, 
+  cambian por un color azulado
+  --------------------------------------------------------------
+    */
+ 
+ #menu #item:hover{
+    background-color: rgb(48, 139, 214);
+ }
+
+
+
+ .titulos {
+    /*
+  ----------------------------------------------------------------------
+  Propiedad de estilos de colores, tamaños y fuentes para 
+  las secciones de nosotros, trabajos, servicios y contacto en los titulos
+  -------------------------------------------------------------------------
+  */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(41, 119, 150);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    font-family: 'Architects Daughter', cursive, 'Caveat', cursive,'Lobster', cursive;
+    text-transform: uppercase; 
+    justify-content: center;
+}
+  
+  .parrafo {
+    /*
+  --------------------------------------------------------------------------
+  Propiedad de estilos de colores, tamaños y fuentes para 
+  las secciones de nosotros, trabajos, servicios y contacto en los parrafos
+  ----------------------------------------------------------------------------
+  */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: fantasy,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left,justify; 
+    }
+
+    form {
+        /*
+      -------------------------------------------------------------
+      Todo este codigo es para el formulario de ña seccion contacto
+      -------------------------------------------------------------
+      */
+        width: 600px;
+        height: 600px;
+        margin: auto;
+        background: rgb(202, 202, 202);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 5px; }
+        form .formularioH1 {
+          text-align: center;
+          padding-top: 80px;
+          font-size: 50px;
+          color: #1d521f;
+          font-family: 'Architects Daughter', cursive, 'Caveat', 
+       cursive,'Lobster', cursive;
+          text-transform: uppercase; }
+        form h2 {
+          color: white;
+          text-align: center;
+          margin: 0;
+          font-size: 30px;
+          margin-bottom: 20px; }
+        form input, form textarea {
+          width: 100%;
+          margin-bottom: 50px;
+          padding: 12px;
+          box-sizing: border-box;
+          font-size: 20px; }
+        form textarea {
+          min-height: 100px;
+          max-height: 100px;
+          max-width: 100%;
+          min-width: 100%; }
+        form #boton {
+          color: white;
+          background-color: #aaaaaa;
+          border: none; }
+        form #boton:hover {
+          background-color: #308bd6; }
+
+
+          .textoPiePag{
+              font-size: 25px;
+          }
+
+
+           /*
+          --------------------------------------------------------------------------------------------------------------------
+                SECCION DE MEDIA QUERYS ........... SECCION DE MEDIA QUERYS................. SECCION DE MEDIA QUERYS
+                SECCION DE MEDIA QUERYS ........... SECCION DE MEDIA QUERYS................. SECCION DE MEDIA QUERYS.
+                SECCION DE MEDIA QUERYS ........... SECCION DE MEDIA QUERYS................. SECCION DE MEDIA QUERYS.
+                SECCION DE MEDIA QUERYS ........... SECCION DE MEDIA QUERYS................. SECCION DE MEDIA QUERYS.
+                SECCION DE MEDIA QUERYS ........... SECCION DE MEDIA QUERYS................. SECCION DE MEDIA QUERYS.
+          --------------------------------------------------------------------------------------------------------------------
+          */
+
+           /*
+          ---------------------------------------------------------------------------------------------------------------------------
+                MEDIDAS DESDE 2100PX A 2800PX ..............  MEDIDAS DESDE 2100PX A 2800PX ...........  MEDIDAS DESDE 2100PX A 2800PX
+                 MEDIDAS DESDE 2100PX A 2800PX ..............  MEDIDAS DESDE 2100PX A 2800PX ...........  MEDIDAS DESDE 2100PX A 2800PX
+                  MEDIDAS DESDE 2100PX A 2800PX ..............  MEDIDAS DESDE 2100PX A 2800PX ...........  MEDIDAS DESDE 2100PX A 2800PX
+                   MEDIDAS DESDE 2100PX A 2800PX ..............  MEDIDAS DESDE 2100PX A 2800PX ...........  MEDIDAS DESDE 2100PX A 2800PX
+          ----------------------------------------------------------------------------------------------------------------------------------
+          */
+
+
+          @media only screen and (min-width:2100px) and (max-width:2800px){
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            
+            body{
+                background: white;
+                color: black;
+            }
+            
+            
+            header .logoNavegador {
+                /*
+              -------------------------------------------
+               Dimensiones del logo en barra de navegacion
+               --------------------------------------------
+              */
+                margin-top: 10px;
+                width: 200px;
+                height: 200px; 
+            
+                }
+                
+                .imagenesPortadas{
+                    height: 780px;
+                }
+            
+            
+                .dimensionVideo{
+                    width: 100%;
+                    height: 780px;
+                }
+            
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR DEL INDEX
+            -----------------------------------
+            */
+            
+            .contenedor{
+                width: 95%;
+                max-width: 2100px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedor .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            .contenedor .video{
+                background-color: white;
+                grid-column: span 5;
+                grid-row: 2 / 3;
+                height: 100%;
+            }
+            
+            .contenedor .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 780px;
+            }
+            
+            .contenedor .cliente{
+                grid-column: span 7;
+                grid-row: 4 / 5;
+                padding: 20px;
+                height: 100%;
+            }
+            
+            .contenedor .piePagina{
+                grid-column:span 6;
+                grid-row: 5 / 6;
+                height: 100%;
+                margin-top: 25px;
+                margin-left: 15px;
+            }
+            
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR NOSOTROS
+            -----------------------------------
+            */
+            
+            .contenedorNosotros{
+                width: 95%;
+                max-width: 2100px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedorNosotros .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            
+            .contenedorNosotros .portada{
+                background-color: white;
+                grid-column: span 5;
+                height: 100%;
+            }
+            
+            .contenedorNosotros .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 780px;
+            }
+            
+            .contenedorNosotros .descripcion{
+                grid-column: span 6;
+                padding: 20px;
+                height: 400px;
+                height: 100%;
+            }
+            
+            .contenedorNosotros .piePagina{
+                grid-column:span 6;
+                height: 160px;
+                margin-top: 25px;
+                margin-left: 15px;
+                height: 100%;
+            }
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR SERVICIOS
+            -----------------------------------
+            */
+            
+            .contenedorServicios{
+                width: 95%;
+                max-width: 2100px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedorServicios .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            
+            .contenedorServicios .portada{
+                background-color: white;
+                grid-column: span 5;
+                height: 100%;
+            }
+            
+            .contenedorServicios .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 780px;
+            }
+            
+            .contenedorServicios .descripcion{
+                grid-column: span 6;
+                padding: 20px;
+                height: 100%;
+            }
+            
+            .contenedorServicios .piePagina{
+                grid-column:span 6;
+                height: 160px;
+                margin-top: 25px;
+                margin-left: 15px;
+                height: 100%;
+            }
+            
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR TRABAJOS
+            -----------------------------------
+            */
+            
+            .contenedorTrabajos{
+                width: 95%;
+                max-width: 2100px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedorTrabajos .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            
+            .contenedorTrabajos .portada{ 
+                background-color: white;  
+                grid-column: span 5;
+                height: 100%;
+            }
+            
+            .contenedorTrabajos .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 780px;
+            }
+            
+            .contenedorTrabajos .descripcion{
+                grid-column: span 6;
+                padding: 20px;
+                height: 100%;
+            }
+            
+            .contenedorTrabajos .piePagina{
+                grid-column:span 6;
+                height: 160px;
+                margin-top: 25px;
+                margin-left: 15px;
+                height: 100%;
+            }
+            
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR CONTACTO
+            -----------------------------------
+            */
+            
+            .contenedorContacto{
+                width: 95%;
+                max-width: 2100px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedorContacto .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%
+            }
+            
+            
+            .contenedorContacto .portada{
+                background-color: white;
+                grid-column: span 5;
+                height: 100%;
+            }
+            
+            .contenedorContacto .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 780px;
+            }
+            
+            .contenedorContacto .descripcion{
+                grid-column: span 6;
+                padding: 20px;
+                height: 600px;
+            }
+            
+            .contenedorContacto .piePagina{
+                grid-column:span 6;
+                height: 160px;
+                margin-top: 25px;
+                margin-left: 15px;
+            }
+            
+            
+            
+            
+              /*
+             ------------------------------------------------------------
+             Se colocan las imagenes de mascotas y logos de clientes, 
+             una alado de otra en una fila, y se centra la etiqueta aside
+             -------------------------------------------------------------
+               */
+               .seccionCliente{
+                margin: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+             }
+            
+                .decorCliente{
+                    width: 33%;
+                    height: 33%;
+                    border-bottom: 3px solid rgb(224, 224, 224);
+                    border-right: 3px solid rgb(224, 224, 224); 
+                }
+            
+            
+             /*
+            -----------------------------------------------------------------
+            Propiedades de margenes y tamaño a las imagenes de redes sociales
+            -------------------------------------------------------------------
+            */
+            .redesLogo{
+                margin-top: 15px;
+                margin-bottom: 10px;
+                width: 70px;
+                height: 70px;
+             }
+            
+             /*
+            ---------------------------------------------------------------------
+            Se alinean las opciones de botones del navegador en columna y se 
+            posicionan en el margen superior derecho
+            ----------------------------------------------------------------------
+            */
+            #menu ul{
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                line-height: 85px;
+                
+               }
+             
+               /*
+               ------------------------------------------------------------------------------
+               Propiedadesde color, tamaño y margenes del texto de las opciones del navegador
+               ------------------------------------------------------------------------------
+               */
+             #menu #item a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                font-size: 2.2em;
+                margin: 100px;   
+             }
+             
+             
+             /*
+             -----------------------------------------------------------------------------
+             Propidades de colores de texto y botones a la lista de opciones del navegador
+             -----------------------------------------------------------------------------
+             */
+             #item{
+                background-color: black;
+                color: white;
+                padding: 20px;
+             }
+             
+              /*
+              --------------------------------------------------------------
+              Cuando me posiciono en cada una de las opciones del navegador, 
+              cambian por un color azulado
+              --------------------------------------------------------------
+                */
+             
+             #menu #item:hover{
+                background-color: rgb(48, 139, 214);
+             }
+            
+             .titulos {
+                /*
+              ----------------------------------------------------------------------
+              Propiedad de estilos de colores, tamaños y fuentes para 
+              las secciones de nosotros, trabajos, servicios y contacto en los titulos
+              -------------------------------------------------------------------------
+              */
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: rgb(41, 119, 150);
+                font-style: italic;
+                font-weight: normal;
+                font-size: 60px;
+                font-family: 'Architects Daughter', cursive, 'Caveat', cursive,'Lobster', cursive;
+                text-transform: uppercase; 
+                justify-content: center;
+            }
+              
+              .parrafo {
+                /*
+              --------------------------------------------------------------------------
+              Propiedad de estilos de colores, tamaños y fuentes para 
+              las secciones de nosotros, trabajos, servicios y contacto en los parrafos
+              ----------------------------------------------------------------------------
+              */
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: black;
+                font-weight: bolder;
+                font-size: 30px;
+                font-family: fantasy,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align: left,justify; 
+                }
+            
+            
+                form {
+                    /*
+                  -------------------------------------------------------------
+                  Todo este codigo es para el formulario de ña seccion contacto
+                  -------------------------------------------------------------
+                  */
+                    width: 600px;
+                    height: 600px;
+                    margin: auto;
+                    background: rgb(202, 202, 202);
+                    padding: 10px 20px;
+                    box-sizing: border-box;
+                    margin-top: 20px;
+                    border-radius: 5px; }
+                    form .formularioH1 {
+                      text-align: center;
+                      padding-top: 80px;
+                      font-size: 50px;
+                      color: #1d521f;
+                      font-family: 'Architects Daughter', cursive, 'Caveat', 
+                   cursive,'Lobster', cursive;
+                      text-transform: uppercase; }
+                    form h2 {
+                      color: white;
+                      text-align: center;
+                      margin: 0;
+                      font-size: 30px;
+                      margin-bottom: 20px; }
+                    form input, form textarea {
+                      width: 100%;
+                      margin-bottom: 50px;
+                      padding: 12px;
+                      box-sizing: border-box;
+                      font-size: 20px; }
+                    form textarea {
+                      min-height: 100px;
+                      max-height: 100px;
+                      max-width: 100%;
+                      min-width: 100%; }
+                    form #boton {
+                      color: white;
+                      background-color: #aaaaaa;
+                      border: none; }
+                    form #boton:hover {
+                      background-color: #308bd6; }
+            
+            
+                      .textoPiePag{
+                          font-size: 25px;
+                      }
+
+
+          /*
+          ---------------------------------------------------------------------------------------------------------------------------
+                MEDIDAS DESDE 1601PX A 2099PX ..............  MEDIDAS DESDE 1601PX A 2099PX  ...........  MEDIDAS DESDE 1601PX A 2099PX 
+                MEDIDAS DESDE 1601PX A 2099PX ..............  MEDIDAS DESDE 1601PX A 2099PX  ...........  MEDIDAS DESDE 1601PX A 2099PX
+                MEDIDAS DESDE 1601PX A 2099PX ..............  MEDIDAS DESDE 1601PX A 2099PX  ...........  MEDIDAS DESDE 1601PX A 2099PX
+                MEDIDAS DESDE 1601PX A 2099PX ..............  MEDIDAS DESDE 1601PX A 2099PX  ...........  MEDIDAS DESDE 1601PX A 2099PX
+                MEDIDAS DESDE 1601PX A 2099PX ..............  MEDIDAS DESDE 1601PX A 2099PX  ...........  MEDIDAS DESDE 1601PX A 2099PX
+          ----------------------------------------------------------------------------------------------------------------------------------
+          */
+
+
+          }
+
+          @media only screen and (min-width:1601px) and (max-width:2099px) {
+
+
+                    
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            
+            body{
+                background: white;
+                color: black;
+            }
+            
+            
+            header .logoNavegador {
+                /*
+              -------------------------------------------
+               Dimensiones del logo en barra de navegacion
+               --------------------------------------------
+              */
+                margin-top: 10px;
+                width: 200px;
+                height: 200px; 
+            
+                }
+                
+                .imagenesPortadas{
+                    height: 570px;
+                }
+            
+            
+                .dimensionVideo{
+                    width: 100%;
+                    height: 570px;
+                }
+            
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR DEL INDEX
+            -----------------------------------
+            */
+            
+            .contenedor{
+                width: 95%;
+                max-width: 1601px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedor .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            .contenedor .video{
+                background-color: white;
+                grid-column: span 5;
+                grid-row: 2 / 3;
+                height: 100%;
+            }
+            
+            .contenedor .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 570px;
+            }
+            
+            .contenedor .cliente{
+                grid-column: span 7;
+                grid-row: 4 / 5;
+                padding: 20px;
+                height: 100%;
+            }
+            
+            .contenedor .piePagina{
+                grid-column:span 6;
+                grid-row: 5 / 6;
+                height: 100%;
+                margin-top: 25px;
+                margin-left: 15px;
+            }
+            
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR NOSOTROS
+            -----------------------------------
+            */
+            
+            .contenedorNosotros{
+                width: 95%;
+                max-width: 1601px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedorNosotros .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            
+            .contenedorNosotros .portada{
+                background-color: white;
+                grid-column: span 5;
+                height: 100%;
+            }
+            
+            .contenedorNosotros .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 570px;
+            }
+            
+            .contenedorNosotros .descripcion{
+                grid-column: span 6;
+                padding: 20px;
+                height: 400px;
+                height: 100%;
+            }
+            
+            .contenedorNosotros .piePagina{
+                grid-column:span 6;
+                height: 160px;
+                margin-top: 25px;
+                margin-left: 15px;
+                height: 100%;
+            }
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR SERVICIOS
+            -----------------------------------
+            */
+            
+            .contenedorServicios{
+                width: 95%;
+                max-width: 1601px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedorServicios .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            
+            .contenedorServicios .portada{
+                background-color: white;
+                grid-column: span 5;
+                height: 100%;
+            }
+            
+            .contenedorServicios .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 570px;
+            }
+            
+            .contenedorServicios .descripcion{
+                grid-column: span 6;
+                padding: 20px;
+                height: 100%;
+            }
+            
+            .contenedorServicios .piePagina{
+                grid-column:span 6;
+                height: 160px;
+                margin-top: 25px;
+                margin-left: 15px;
+                height: 100%;
+            }
+            
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR TRABAJOS
+            -----------------------------------
+            */
+            
+            .contenedorTrabajos{
+                width: 95%;
+                max-width: 1601px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedorTrabajos .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            
+            .contenedorTrabajos .portada{ 
+                background-color: white;  
+                grid-column: span 5;
+                height: 100%;
+            }
+            
+            .contenedorTrabajos .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 570px;
+            }
+            
+            .contenedorTrabajos .descripcion{
+                grid-column: span 6;
+                padding: 20px;
+                height: 100%;
+            }
+            
+            .contenedorTrabajos .piePagina{
+                grid-column:span 6;
+                height: 160px;
+                margin-top: 25px;
+                margin-left: 15px;
+                height: 100%;
+            }
+            
+            
+            /*
+            -----------------------------------
+                   CONTENEDOR CONTACTO
+            -----------------------------------
+            */
+            
+            .contenedorContacto{
+                width: 95%;
+                max-width: 1601px; /*Ancho maximo de 1000px*/
+                margin: auto;
+                display: grid; /*Agregamos el Grid*/
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(4, auto);
+            }
+            
+            .contenedorContacto .header{
+                grid-column-start: 1;
+                grid-column-end: 7;
+                height: 100%;
+            }
+            
+            
+            .contenedorContacto .portada{
+                background-color: white;
+                grid-column: span 5;
+                height: 100%;
+            }
+            
+            .contenedorContacto .navegador{
+                background-color: black;
+                grid-column: 6 / 7;
+                grid-row: 2 / 3;
+                height: 570px;
+            }
+            
+            .contenedorContacto .descripcion{
+                grid-column: span 6;
+                padding: 20px;
+                height: 600px;
+            }
+            
+            .contenedorContacto .piePagina{
+                grid-column:span 6;
+                height: 160px;
+                margin-top: 25px;
+                margin-left: 15px;
+            }
+            
+            
+            
+            
+              /*
+             ------------------------------------------------------------
+             Se colocan las imagenes de mascotas y logos de clientes, 
+             una alado de otra en una fila, y se centra la etiqueta aside
+             -------------------------------------------------------------
+               */
+               .seccionCliente{
+                margin: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+             }
+            
+                .decorCliente{
+                    width: 33%;
+                    height: 33%;
+                    border-bottom: 3px solid rgb(224, 224, 224);
+                    border-right: 3px solid rgb(224, 224, 224); 
+                }
+            
+            
+             /*
+            -----------------------------------------------------------------
+            Propiedades de margenes y tamaño a las imagenes de redes sociales
+            -------------------------------------------------------------------
+            */
+            .redesLogo{
+                margin-top: 15px;
+                margin-bottom: 10px;
+                width: 70px;
+                height: 70px;
+             }
+            
+             /*
+            ---------------------------------------------------------------------
+            Se alinean las opciones de botones del navegador en columna y se 
+            posicionan en el margen superior derecho
+            ----------------------------------------------------------------------
+            */
+            #menu ul{
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                line-height: 45px;
+                
+               }
+             
+               /*
+               ------------------------------------------------------------------------------
+               Propiedadesde color, tamaño y margenes del texto de las opciones del navegador
+               ------------------------------------------------------------------------------
+               */
+             #menu #item a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                font-size: 1.8em;
+                margin: 50px;   
+             }
+             
+             
+             /*
+             -----------------------------------------------------------------------------
+             Propidades de colores de texto y botones a la lista de opciones del navegador
+             -----------------------------------------------------------------------------
+             */
+             #item{
+                background-color: black;
+                color: white;
+                padding: 20px;
+                width: 250px;
+             }
+             
+              /*
+              --------------------------------------------------------------
+              Cuando me posiciono en cada una de las opciones del navegador, 
+              cambian por un color azulado
+              --------------------------------------------------------------
+                */
+             
+             #menu #item:hover{
+                background-color: rgb(48, 139, 214);
+             }
+            
+             .titulos {
+                /*
+              ----------------------------------------------------------------------
+              Propiedad de estilos de colores, tamaños y fuentes para 
+              las secciones de nosotros, trabajos, servicios y contacto en los titulos
+              -------------------------------------------------------------------------
+              */
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: rgb(41, 119, 150);
+                font-style: italic;
+                font-weight: normal;
+                font-size: 60px;
+                font-family: 'Architects Daughter', cursive, 'Caveat', cursive,'Lobster', cursive;
+                text-transform: uppercase; 
+                justify-content: center;
+            }
+              
+              .parrafo {
+                /*
+              --------------------------------------------------------------------------
+              Propiedad de estilos de colores, tamaños y fuentes para 
+              las secciones de nosotros, trabajos, servicios y contacto en los parrafos
+              ----------------------------------------------------------------------------
+              */
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: black;
+                font-weight: bolder;
+                font-size: 30px;
+                font-family: fantasy,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align: left,justify; 
+                }
+            
+            
+                form {
+                    /*
+                  -------------------------------------------------------------
+                  Todo este codigo es para el formulario de ña seccion contacto
+                  -------------------------------------------------------------
+                  */
+                    width: 600px;
+                    height: 600px;
+                    margin: auto;
+                    background: rgb(202, 202, 202);
+                    padding: 10px 20px;
+                    box-sizing: border-box;
+                    margin-top: 20px;
+                    border-radius: 5px; }
+                    form .formularioH1 {
+                      text-align: center;
+                      padding-top: 80px;
+                      font-size: 50px;
+                      color: #1d521f;
+                      font-family: 'Architects Daughter', cursive, 'Caveat', 
+                   cursive,'Lobster', cursive;
+                      text-transform: uppercase; }
+                    form h2 {
+                      color: white;
+                      text-align: center;
+                      margin: 0;
+                      font-size: 30px;
+                      margin-bottom: 20px; }
+                    form input, form textarea {
+                      width: 100%;
+                      margin-bottom: 50px;
+                      padding: 12px;
+                      box-sizing: border-box;
+                      font-size: 20px; }
+                    form textarea {
+                      min-height: 100px;
+                      max-height: 100px;
+                      max-width: 100%;
+                      min-width: 100%; }
+                    form #boton {
+                      color: white;
+                      background-color: #aaaaaa;
+                      border: none; }
+                    form #boton:hover {
+                      background-color: #308bd6; }
+            
+            
+                      .textoPiePag{
+                          font-size: 25px;
+                      }
+              }
+
+
+
+           /*
+          ---------------------------------------------------------------------------------------------------------------------------
+            MEDIDAS DESDE 1280PX A 1600PX ..............  MEDIDAS DESDE 1280PX A 1600PX  ...........  MEDIDAS DESDE 1280PX A 1600PX
+            MEDIDAS DESDE 1280PX A 1600PX ..............  MEDIDAS DESDE 1280PX A 1600PX  ...........  MEDIDAS DESDE 1280PX A 1600PX 
+            MEDIDAS DESDE 1280PX A 1600PX ..............  MEDIDAS DESDE 1280PX A 1600PX  ...........  MEDIDAS DESDE 1280PX A 1600PX 
+            MEDIDAS DESDE 1280PX A 1600PX ..............  MEDIDAS DESDE 1280PX A 1600PX  ...........  MEDIDAS DESDE 1280PX A 1600PX 
+            MEDIDAS DESDE 1280PX A 1600PX ..............  MEDIDAS DESDE 1280PX A 1600PX  ...........  MEDIDAS DESDE 1280PX A 1600PX 
+          ----------------------------------------------------------------------------------------------------------------------------------
+          */
+
+
+          @media only screen and (min-width:1280px) and (max-width:1600px)
+          
+          {
+                                /*
+                ------------------------------------------------------------
+                Se colocan las imagenes de mascotas y logos de clientes, 
+                una alado de otra en una fila, y se centra la etiqueta aside
+                -------------------------------------------------------------
+                */
+                .seccionCliente{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    
+                }
+
+                    .decorCliente{
+                        width: 33%;
+                        height: 33%;
+                        border-bottom: 0.1px solid rgb(224, 224, 224);
+                        border-right: 0.1px solid rgb(224, 224, 224); 
+                    }
+
+                
+
+                /*
+                ---------------------------------------------------------------------
+                Se alinean las opciones de botones del navegador en columna y se 
+                posicionan en el margen superior derecho
+                ----------------------------------------------------------------------
+                */
+                #menu ul{
+                    margin: 0px;
+                    padding: 0px;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row ;
+                    flex-wrap: nowrap;
+                    line-height: 45px;
+                    
+                }
+                
+                /*
+                ------------------------------------------------------------------------------
+                Propiedadesde color, tamaño y margenes del texto de las opciones del navegador
+                ------------------------------------------------------------------------------
+                */
+                #menu #item a{
+                    text-decoration: none;
+                    color: white;
+                    text-align: center;
+                    font-size: 1.8em;
+                    margin: 25px;
+                    
+                }
+                
+                
+                /*
+                -----------------------------------------------------------------------------
+                Propidades de colores de texto y botones a la lista de opciones del navegador
+                -----------------------------------------------------------------------------
+                */
+                #item{
+                    background-color: black;
+                    color: white;
+                    padding: 20px;
+                    width: 160px;
+                    
+                }
+                
+                /*
+                --------------------------------------------------------------
+                Cuando me posiciono en cada una de las opciones del navegador, 
+                cambian por un color azulado
+                --------------------------------------------------------------
+                    */
+                
+                #menu #item:hover{
+                    background-color: rgb(48, 139, 214);
+                }
+
+                .titulos {
+                    /*
+                ----------------------------------------------------------------------
+                Propiedad de estilos de colores, tamaños y fuentes para 
+                las secciones de nosotros, trabajos, servicios y contacto en los titulos
+                -------------------------------------------------------------------------
+                */
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    color: rgb(41, 119, 150);
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 35px;
+                    font-family: 'Architects Daughter', cursive, 'Caveat', cursive,'Lobster', cursive;
+                    text-transform: uppercase; 
+                    justify-content: center;
+                }
+                
+                .parrafo {
+                    /*
+                --------------------------------------------------------------------------
+                Propiedad de estilos de colores, tamaños y fuentes para 
+                las secciones de nosotros, trabajos, servicios y contacto en los parrafos
+                ----------------------------------------------------------------------------
+                */
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    color: black;
+                    font-weight: bolder;
+                    font-size: 25px;
+                    font-family: fantasy,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    text-align: left,justify; 
+                    }
+
+                    header .logoNavegador {
+                        /*
+                      -------------------------------------------
+                       Dimensiones del logo en barra de navegacion
+                       --------------------------------------------
+                      */
+                        margin-top: 3px;
+                        width: 150px;
+                        height: 150px; 
+                    
+                        }
+                    
+
+                    .dimensionVideo{
+                        width: 100%;
+                        height: 600px;
+                    }
+
+                    /*
+                    -----------------------------------------------------------------
+                    Propiedades de margenes y tamaño a las imagenes de redes sociales
+                    -------------------------------------------------------------------
+                    */
+                    .redesLogo{
+                        margin-top: 2px;
+                        margin-bottom: 10px;
+                        width: 40px;
+                        height: 40px;
+                }
+
+                    .textoPiePag{
+                        font-size: 25px;
+                    }
+
+
+                    .imagenesPortadas{
+                        height:600px;
+                    }
+
+                    
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR DEL INDEX
+                    -----------------------------------
+                    */
+
+                    .contenedor{
+                        width: 100%;
+                        max-width: 1280px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedor .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        height: 150px;
+                    }
+
+
+                    .contenedor .video{
+                        background-color: white;
+                        grid-column: span 7;
+                        height: 100%;
+                        grid-row: 3 / 4;
+
+                    }
+
+                    .contenedor .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 89.5px;
+                    }
+
+                    .contenedor .cliente{
+                        grid-column: span 7;
+                        padding: 20px;
+                        height: 100%;
+                        grid-row: 4 / 5;
+                    }
+
+                    .contenedor .piePagina{
+                        grid-column:span 6;
+                        grid-row: 5 / 6;
+                        height: 110px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR NOSOTROS
+                    -----------------------------------
+                    */
+
+                    .contenedorNosotros{
+                        width: 100%;
+                        max-width: 1280px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedorNosotros .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        height: 150px;
+                    }
+
+
+                    .contenedorNosotros .portada{
+                        background-color: white;
+                        grid-column: span 7;
+                        grid-row: 3 / 4;
+                        height: 100%;
+                    }
+
+                    .contenedorNosotros .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 89.5px;
+                    }
+
+                    .contenedorNosotros .descripcion{
+                        grid-column: span 6;
+                        padding: 20px;
+                        height: 300px;
+                    }
+
+                    .contenedorNosotros .piePagina{
+                        grid-column:span 6;
+                        height: 110px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR SERVICIOS
+                    -----------------------------------
+                    */
+
+                    .contenedorServicios{
+                        width: 100%;
+                        max-width: 1280px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedorServicios .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        height: 150px;
+                    }
+
+
+                    .contenedorServicios .portada{
+                        background-color: white;
+                        grid-column: span 7;
+                        grid-row: 3 / 4;
+                        height: 100%;
+                    }
+
+                    .contenedorServicios .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 89.5px;
+                    }
+
+                    .contenedorServicios .descripcion{
+                        grid-column: span 6;
+                        padding: 20px;
+                        height: 300px;
+                    }
+
+                    .contenedorServicios .piePagina{
+                        grid-column:span 6;
+                        height: 110px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR TRABAJOS
+                    -----------------------------------
+                    */
+
+                    .contenedorTrabajos{
+                        width: 100%;
+                        max-width: 1280px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedorTrabajos .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        grid-row: 1 / 2;
+                        height: 150px;
+                    }
+
+
+                    .contenedorTrabajos .portada{
+                        background-color: white;
+                        grid-column: span 7;
+                        grid-row: 3 / 4;
+                        height: 100%;
+                    }
+
+                    .contenedorTrabajos .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 89.5px;
+                    }
+
+                    .contenedorTrabajos .descripcion{
+                        grid-column: span 6;
+                        padding: 20px;
+                        height: 300px;
+                    }
+
+                    .contenedorTrabajos .piePagina{
+                        grid-column:span 6;
+                        height: 110px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR CONTACTO
+                    -----------------------------------
+                    */
+
+                    .contenedorContacto{
+                        width: 100%;
+                        max-width: 1280px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedorContacto .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        grid-row: 1 / 2;
+                        height: 150px;  
+                    }
+
+
+                    .contenedorContacto .portada{
+                        background-color: white;
+                        grid-column: span 7;
+                        grid-row: 3 / 4;
+                        height: 100%;
+                    }
+
+                    .contenedorContacto .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 89.5px;
+                    }
+
+                    .contenedorContacto .descripcion{
+                        grid-column: span 6;
+                        padding: 20px;
+                        height: 480px;
+                    }
+
+                    .contenedorContacto .piePagina{
+                        grid-column:span 6;
+                        height: 110px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+
+                    form {
+                        /*
+                      -------------------------------------------------------------
+                      Todo este codigo es para el formulario de ña seccion contacto
+                      -------------------------------------------------------------
+                      */
+                        width: 450px;
+                        height: 450px;
+                        margin: auto;
+                        background: rgb(202, 202, 202);
+                        padding: 10px 20px;
+                        box-sizing: border-box;
+                        margin-top: 20px;
+                        border-radius: 5px; }
+                        form .formularioH1 {
+                          text-align: center;
+                          padding-top: 50px;
+                          font-size: 50px;
+                          color: #1d521f;
+                          font-family: 'Architects Daughter', cursive, 'Caveat', 
+                       cursive,'Lobster', cursive;
+                          text-transform: uppercase; }
+                        form h2 {
+                          color: white;
+                          text-align: center;
+                          margin: 0;
+                          font-size: 30px;
+                          margin-bottom: 20px; }
+                        form input, form textarea {
+                          width: 100%;
+                          margin-bottom: 20px;
+                          padding: 5px;
+                          box-sizing: border-box;
+                          font-size: 25px; }
+                        form textarea {
+                          min-height: 100px;
+                          max-height: 100px;
+                          max-width: 100%;
+                          min-width: 100%; }
+                        form #boton {
+                          color: white;
+                          background-color: #aaaaaa;
+                          border: none; }
+                        form #boton:hover {
+                          background-color: #308bd6; }
+                  }
+
+
+            /*
+          ---------------------------------------------------------------------------------------------------------------------------
+            MEDIDAS DESDE 640PX A 1280PX ..............  MEDIDAS DESDE 640PX A 1280PX  ...........  MEDIDAS DESDE 640PX A 1280PX
+            MEDIDAS DESDE 640PX A 1280PX ..............  MEDIDAS DESDE 640PX A 1280PX  ...........  MEDIDAS DESDE 640PX A 1280PX
+            MEDIDAS DESDE 640PX A 1280PX ..............  MEDIDAS DESDE 640PX A 1280PX  ...........  MEDIDAS DESDE 640PX A 1280PX
+            MEDIDAS DESDE 640PX A 1280PX ..............  MEDIDAS DESDE 640PX A 1280PX  ...........  MEDIDAS DESDE 640PX A 1280PX
+            MEDIDAS DESDE 640PX A 1280PX ..............  MEDIDAS DESDE 640PX A 1280PX  ...........  MEDIDAS DESDE 640PX A 1280PX
+            MEDIDAS DESDE 640PX A 1280PX ..............  MEDIDAS DESDE 640PX A 1280PX  ...........  MEDIDAS DESDE 640PX A 1280PX
+            MEDIDAS DESDE 640PX A 1280PX ..............  MEDIDAS DESDE 640PX A 1280PX  ...........  MEDIDAS DESDE 640PX A 1280PX
+          ----------------------------------------------------------------------------------------------------------------------------------
+          */
+
+                  @media only screen and (min-width:640px) and (max-width:1280px)
+          
+                  {
+                                        /*
+                        ------------------------------------------------------------
+                        Se colocan las imagenes de mascotas y logos de clientes, 
+                        una alado de otra en una fila, y se centra la etiqueta aside
+                        -------------------------------------------------------------
+                        */
+                        .seccionCliente{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            
+                        }
+        
+                            .decorCliente{
+                                width: 33%;
+                                height: 33%;
+                                border-bottom: 0.1px solid rgb(224, 224, 224);
+                                border-right: 0.1px solid rgb(224, 224, 224); 
+                            }
+        
+                        
+        
+                        /*
+                        ---------------------------------------------------------------------
+                        Se alinean las opciones de botones del navegador en columna y se 
+                        posicionan en el margen superior derecho
+                        ----------------------------------------------------------------------
+                        */
+                        #menu ul{
+                            margin: 0px;
+                            padding: 0px;
+                            list-style: none;
+                            display: flex;
+                            flex-direction: row ;
+                            flex-wrap: nowrap;
+                            line-height: 25px;
+                            
+                        }
+                        
+                        /*
+                        ------------------------------------------------------------------------------
+                        Propiedadesde color, tamaño y margenes del texto de las opciones del navegador
+                        ------------------------------------------------------------------------------
+                        */
+                        #menu #item a{
+                            text-decoration: none;
+                            color: white;
+                            text-align: center;
+                            font-size: 0.5em;
+                            margin: 15px;
+                            
+                        }
+                        
+                        
+                        /*
+                        -----------------------------------------------------------------------------
+                        Propidades de colores de texto y botones a la lista de opciones del navegador
+                        -----------------------------------------------------------------------------
+                        */
+                        #item{
+                            background-color: black;
+                            color: white;
+                            padding: 0.2px;
+                            width: 62px;
+                            
+                        }
+                        
+                        /*
+                        --------------------------------------------------------------
+                        Cuando me posiciono en cada una de las opciones del navegador, 
+                        cambian por un color azulado
+                        --------------------------------------------------------------
+                            */
+                        
+                        #menu #item:hover{
+                            background-color: rgb(48, 139, 214);
+                        }
+        
+                        .titulos {
+                            /*
+                        ----------------------------------------------------------------------
+                        Propiedad de estilos de colores, tamaños y fuentes para 
+                        las secciones de nosotros, trabajos, servicios y contacto en los titulos
+                        -------------------------------------------------------------------------
+                        */
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                            text-align: center;
+                            color: rgb(41, 119, 150);
+                            font-style: italic;
+                            font-weight: normal;
+                            font-size: 15px;
+                            font-family: 'Architects Daughter', cursive, 'Caveat', cursive,'Lobster', cursive;
+                            text-transform: uppercase; 
+                            justify-content: center;
+                        }
+                        
+                        .parrafo {
+                            /*
+                        --------------------------------------------------------------------------
+                        Propiedad de estilos de colores, tamaños y fuentes para 
+                        las secciones de nosotros, trabajos, servicios y contacto en los parrafos
+                        ----------------------------------------------------------------------------
+                        */
+                            margin-top: 10px;
+                            margin-bottom: 20px;
+                            text-align: center;
+                            color: black;
+                            font-weight: bolder;
+                            font-size: 10px;
+                            font-family: fantasy,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            text-align: left,justify; 
+                            }
+        
+                            header .logoNavegador {
+                                /*
+                              -------------------------------------------
+                               Dimensiones del logo en barra de navegacion
+                               --------------------------------------------
+                              */
+                                margin-top: 2px;
+                                width: 70px;
+                                height: 70px; 
+                            
+                                }
+                            
+        
+                            .dimensionVideo{
+                                width: 100%;
+                                height: 300px;
+                            }
+        
+                            /*
+                            -----------------------------------------------------------------
+                            Propiedades de margenes y tamaño a las imagenes de redes sociales
+                            -------------------------------------------------------------------
+                            */
+                            .redesLogo{
+                                margin-top: 2px;
+                                margin-bottom: 10px;
+                                width: 18px;
+                                height: 18px;
+                        }
+        
+                            .textoPiePag{
+                                font-size: 10px;
+                            }
+        
+        
+                            .imagenesPortadas{
+                                height:260px;
+                            }
+        
+        
+                            /*
+                            -----------------------------------
+                                CONTENEDOR DEL INDEX
+                            -----------------------------------
+                            */
+        
+                            .contenedor{
+                                width: 100%;
+                                max-width: 640px; /*Ancho maximo de 1000px*/
+                                margin: auto;
+                                display: grid; /*Agregamos el Grid*/
+                                grid-template-columns: repeat(6, 1fr);
+                                grid-template-rows: repeat(4, auto);
+                            }
+        
+                            .contenedor .header{
+                                grid-column-start: 1;
+                                grid-column-end: 7;
+                                height: 80px;
+                            }
+        
+        
+                            .contenedor .video{
+                                background-color: white;
+                                grid-column: span 7;
+                                height: 100%;
+                                grid-row: 3 / 4;
+                            }
+        
+                            .contenedor .navegador{
+                                background: black;
+                                grid-column: 1 / 7;
+                                grid-row: 2 / 3;
+                                height: 28.4px;
+                            }
+        
+                            .contenedor .cliente{
+                                grid-column: span 7;
+                                padding: 20px;
+                                height: 100%;
+                                grid-row: 4 / 5;
+                            }
+        
+                            .contenedor .piePagina{
+                                grid-column:span 6;
+                                grid-row: 5 / 6;
+                                height: 80px;
+                                margin-top: 25px;
+                                margin-left: 15px;
+                            }
+        
+        
+                            /*
+                            -----------------------------------
+                                CONTENEDOR NOSOTROS
+                            -----------------------------------
+                            */
+        
+                            .contenedorNosotros{
+                                width: 100%;
+                                max-width: 640px; /*Ancho maximo de 1000px*/
+                                margin: auto;
+                                display: grid; /*Agregamos el Grid*/
+                                grid-template-columns: repeat(6, 1fr);
+                                grid-template-rows: repeat(4, auto);
+                            }
+        
+                            .contenedorNosotros .header{
+                                grid-column-start: 1;
+                                grid-column-end: 7;
+                                height: 80px;
+                            }
+        
+        
+                            .contenedorNosotros .portada{
+                                background-color: white;
+                                grid-column: span 7;
+                                grid-row: 3 / 4;
+                                height: 100%;
+                            }
+        
+                            .contenedorNosotros .navegador{
+                                background: black;
+                                grid-column: 1 / 7;
+                                grid-row: 2 / 3;
+                                height: 28.4px;
+                            }
+        
+                            .contenedorNosotros .descripcion{
+                                grid-column: span 6;
+                                padding: 20px;
+                                height: 160px;
+                            }
+        
+                            .contenedorNosotros .piePagina{
+                                grid-column:span 6;
+                                height: 80px;
+                                margin-top: 25px;
+                                margin-left: 15px;
+                            }
+        
+                            /*
+                            -----------------------------------
+                                CONTENEDOR SERVICIOS
+                            -----------------------------------
+                            */
+        
+                            .contenedorServicios{
+                                width: 100%;
+                                max-width: 640px; /*Ancho maximo de 1000px*/
+                                margin: auto;
+                                display: grid; /*Agregamos el Grid*/
+                                grid-template-columns: repeat(6, 1fr);
+                                grid-template-rows: repeat(4, auto);
+                            }
+        
+                            .contenedorServicios .header{
+                                grid-column-start: 1;
+                                grid-column-end: 7;
+                                height: 80px;
+                            }
+        
+        
+                            .contenedorServicios .portada{
+                                background-color: white;
+                                grid-column: span 7;
+                                grid-row: 3 / 4;
+                                height: 100%;
+                            }
+        
+                            .contenedorServicios .navegador{
+                                background: black;
+                                grid-column: 1 / 7;
+                                grid-row: 2 / 3;
+                                height: 28.4px;
+                            }
+        
+                            .contenedorServicios .descripcion{
+                                grid-column: span 6;
+                                padding: 20px;
+                                height: 160px;
+                            }
+        
+                            .contenedorServicios .piePagina{
+                                grid-column:span 6;
+                                height: 80px;
+                                margin-top: 25px;
+                                margin-left: 15px;
+                            }
+        
+        
+                            /*
+                            -----------------------------------
+                                CONTENEDOR TRABAJOS
+                            -----------------------------------
+                            */
+        
+                            .contenedorTrabajos{
+                                width: 100%;
+                                max-width: 640px; /*Ancho maximo de 1000px*/
+                                margin: auto;
+                                display: grid; /*Agregamos el Grid*/
+                                grid-template-columns: repeat(6, 1fr);
+                                grid-template-rows: repeat(4, auto);
+                            }
+        
+                            .contenedorTrabajos .header{
+                                grid-column-start: 1;
+                                grid-column-end: 7;
+                                grid-row: 1 / 2;
+                                height: 80px;
+                            }
+        
+        
+                            .contenedorTrabajos .portada{
+                                background-color: white;
+                                grid-column: span 7;
+                                grid-row: 3 / 4;
+                                height: 100%;
+                            }
+        
+                            .contenedorTrabajos .navegador{
+                                background: black;
+                                grid-column: 1 / 7;
+                                grid-row: 2 / 3;
+                                height: 28.4px;
+                            }
+        
+                            .contenedorTrabajos .descripcion{
+                                grid-column: span 6;
+                                padding: 20px;
+                                height: 160px;
+                            }
+        
+                            .contenedorTrabajos .piePagina{
+                                grid-column:span 6;
+                                height: 80px;
+                                margin-top: 5px;
+                                margin-left: 15px;
+                            }
+        
+        
+                            /*
+                            -----------------------------------
+                                CONTENEDOR CONTACTO
+                            -----------------------------------
+                            */
+        
+                            .contenedorContacto{
+                                width: 100%;
+                                max-width: 640px; /*Ancho maximo de 1000px*/
+                                margin: auto;
+                                display: grid; /*Agregamos el Grid*/
+                                grid-template-columns: repeat(6, 1fr);
+                                grid-template-rows: repeat(4, auto);
+                            }
+        
+                            .contenedorContacto .header{
+                                grid-column-start: 1;
+                                grid-column-end: 7;
+                                grid-row: 1 / 2;
+                                height: 80px;  
+                            }
+        
+        
+                            .contenedorContacto .portada{
+                                background-color: white;
+                                grid-column: span 7;
+                                grid-row: 3 / 4;
+                                height: 100%;
+                            }
+        
+                            .contenedorContacto .navegador{
+                                background: black;
+                                grid-column: 1 / 7;
+                                grid-row: 2 / 3;
+                                height: 28.4px;
+                            }
+        
+                            .contenedorContacto .descripcion{
+                                grid-column: span 6;
+                                padding: 20px;
+                                height: 280px;
+                            }
+        
+                            .contenedorContacto .piePagina{
+                                grid-column:span 6;
+                                height: 80px;
+                                margin-top: 25px;
+                                margin-left: 15px;
+                            }
+        
+        
+                            form {
+                                /*
+                              -------------------------------------------------------------
+                              Todo este codigo es para el formulario de ña seccion contacto
+                              -------------------------------------------------------------
+                              */
+                                width: 250px;
+                                height: 270px;
+                                margin: auto;
+                                background: rgb(202, 202, 202);
+                                padding: 10px 20px;
+                                box-sizing: border-box;
+                                margin-top: 20px;
+                                border-radius: 5px; }
+                                form .formularioH1 {
+                                  text-align: center;
+                                  padding-top: 50px;
+                                  font-size: 50px;
+                                  color: #1d521f;
+                                  font-family: 'Architects Daughter', cursive, 'Caveat', 
+                               cursive,'Lobster', cursive;
+                                  text-transform: uppercase; }
+                                form h2 {
+                                  color: white;
+                                  text-align: center;
+                                  margin: 0;
+                                  font-size: 15px;
+                                  margin-bottom: 3px; }
+                                form input, form textarea {
+                                  width: 100%;
+                                  margin-bottom: 10px;
+                                  padding: 2px;
+                                  box-sizing: border-box;
+                                  font-size: 10px; }
+                                form textarea {
+                                  min-height: 100px;
+                                  max-height: 100px;
+                                  max-width: 100%;
+                                  min-width: 100%; }
+                                form #boton {
+                                  color: white;
+                                  background-color: #aaaaaa;
+                                  border: none; }
+                                form #boton:hover {
+                                  background-color: #308bd6; }
+                         }
+
+
+
+                        /*
+                    ---------------------------------------------------------------------------------------------------------------------------
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                        MEDIDAS DESDE 480PXX A 640PX ..............  MEDIDAS DESDE 480PXX A 640PX  ...........  MEDIDAS DESDE 480PXX A 640PX
+                    ----------------------------------------------------------------------------------------------------------------------------------
+                    */
+        
+                        
+                         @media only screen and (min-width:480px) and (max-width:640px)
+          
+                         {
+                                               /*
+                               ------------------------------------------------------------
+                               Se colocan las imagenes de mascotas y logos de clientes, 
+                               una alado de otra en una fila, y se centra la etiqueta aside
+                               -------------------------------------------------------------
+                               */
+                               .seccionCliente{
+                                   display: flex;
+                                   flex-direction: row;
+                                   justify-content: center;
+                                   
+                               }
+               
+                                   .decorCliente{
+                                       width: 33%;
+                                       height: 33%;
+                                       border-bottom: 0.1px solid rgb(224, 224, 224);
+                                       border-right: 0.1px solid rgb(224, 224, 224); 
+                                   }
+               
+                               
+               
+                               /*
+                               ---------------------------------------------------------------------
+                               Se alinean las opciones de botones del navegador en columna y se 
+                               posicionan en el margen superior derecho
+                               ----------------------------------------------------------------------
+                               */
+                               #menu ul{
+                                   margin: 0px;
+                                   padding: 0px;
+                                   list-style: none;
+                                   display: flex;
+                                   flex-direction: row ;
+                                   flex-wrap: nowrap;
+                                   line-height: 25px;
+                                   
+                               }
+                               
+                               /*
+                               ------------------------------------------------------------------------------
+                               Propiedadesde color, tamaño y margenes del texto de las opciones del navegador
+                               ------------------------------------------------------------------------------
+                               */
+                               #menu #item a{
+                                   text-decoration: none;
+                                   color: white;
+                                   text-align: center;
+                                   font-size: 0.5em;
+                                   margin: 15px;
+                                   
+                               }
+                               
+                               
+                               /*
+                               -----------------------------------------------------------------------------
+                               Propidades de colores de texto y botones a la lista de opciones del navegador
+                               -----------------------------------------------------------------------------
+                               */
+                               #item{
+                                   background-color: black;
+                                   color: white;
+                                   padding: 0.2px;
+                                   width: 62px;
+                                   
+                               }
+                               
+                               /*
+                               --------------------------------------------------------------
+                               Cuando me posiciono en cada una de las opciones del navegador, 
+                               cambian por un color azulado
+                               --------------------------------------------------------------
+                                   */
+                               
+                               #menu #item:hover{
+                                   background-color: rgb(48, 139, 214);
+                               }
+               
+                               .titulos {
+                                   /*
+                               ----------------------------------------------------------------------
+                               Propiedad de estilos de colores, tamaños y fuentes para 
+                               las secciones de nosotros, trabajos, servicios y contacto en los titulos
+                               -------------------------------------------------------------------------
+                               */
+                                   margin-top: 20px;
+                                   margin-bottom: 20px;
+                                   text-align: center;
+                                   color: rgb(41, 119, 150);
+                                   font-style: italic;
+                                   font-weight: normal;
+                                   font-size: 15px;
+                                   font-family: 'Architects Daughter', cursive, 'Caveat', cursive,'Lobster', cursive;
+                                   text-transform: uppercase; 
+                                   justify-content: center;
+                               }
+                               
+                               .parrafo {
+                                   /*
+                               --------------------------------------------------------------------------
+                               Propiedad de estilos de colores, tamaños y fuentes para 
+                               las secciones de nosotros, trabajos, servicios y contacto en los parrafos
+                               ----------------------------------------------------------------------------
+                               */
+                                   margin-top: 10px;
+                                   margin-bottom: 20px;
+                                   text-align: center;
+                                   color: black;
+                                   font-weight: bolder;
+                                   font-size: 10px;
+                                   font-family: fantasy,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                   text-align: left,justify; 
+                                   }
+               
+                                   header .logoNavegador {
+                                       /*
+                                     -------------------------------------------
+                                      Dimensiones del logo en barra de navegacion
+                                      --------------------------------------------
+                                     */
+                                       margin-top: 2px;
+                                       width: 70px;
+                                       height: 70px; 
+                                   
+                                       }
+                                   
+               
+                                   .dimensionVideo{
+                                       width: 100%;
+                                       height: 210px;
+                                   }
+               
+                                   /*
+                                   -----------------------------------------------------------------
+                                   Propiedades de margenes y tamaño a las imagenes de redes sociales
+                                   -------------------------------------------------------------------
+                                   */
+                                   .redesLogo{
+                                       margin-top: 2px;
+                                       margin-bottom: 10px;
+                                       width: 18px;
+                                       height: 18px;
+                               }
+               
+                                   .textoPiePag{
+                                       font-size: 10px;
+                                   }
+               
+               
+                                   .imagenesPortadas{
+                                       height:220px;
+                                   }
+               
+                                   
+               
+                                
+               
+               
+                                   /*
+                                   -----------------------------------
+                                       CONTENEDOR DEL INDEX
+                                   -----------------------------------
+                                   */
+               
+                                   .contenedor{
+                                       width: 100%;
+                                       max-width: 480px; /*Ancho maximo de 1000px*/
+                                       margin: auto;
+                                       display: grid; /*Agregamos el Grid*/
+                                       grid-template-columns: repeat(6, 1fr);
+                                       grid-template-rows: repeat(4, auto);
+                                   }
+               
+                                   .contenedor .header{
+                                       grid-column-start: 1;
+                                       grid-column-end: 7;
+                                       height: 80px;
+                                   }
+               
+               
+                                   .contenedor .video{
+                                       background-color: white;
+                                       grid-column: span 7;
+                                       height: 100%;
+                                       grid-row: 3 / 4;
+                                   }
+               
+                                   .contenedor .navegador{
+                                       background: black;
+                                       grid-column: 1 / 7;
+                                       grid-row: 2 / 3;
+                                       height: 28.4px;
+                                   }
+               
+                                   .contenedor .cliente{
+                                       grid-column: span 7;
+                                       padding: 20px;
+                                       height: 100%;
+                                       grid-row: 4 / 5;
+                                   }
+               
+                                   .contenedor .piePagina{
+                                       grid-column:span 6;
+                                       grid-row: 5 / 6;
+                                       height: 80px;
+                                       margin-top: 25px;
+                                       margin-left: 15px;
+                                   }
+               
+               
+                                   /*
+                                   -----------------------------------
+                                       CONTENEDOR NOSOTROS
+                                   -----------------------------------
+                                   */
+               
+                                   .contenedorNosotros{
+                                       width: 100%;
+                                       max-width: 480px; /*Ancho maximo de 1000px*/
+                                       margin: auto;
+                                       display: grid; /*Agregamos el Grid*/
+                                       grid-template-columns: repeat(6, 1fr);
+                                       grid-template-rows: repeat(4, auto);
+                                   }
+               
+                                   .contenedorNosotros .header{
+                                       grid-column-start: 1;
+                                       grid-column-end: 7;
+                                       height: 80px;
+                                   }
+               
+               
+                                   .contenedorNosotros .portada{
+                                       background-color: white;
+                                       grid-column: span 7;
+                                       grid-row: 3 / 4;
+                                       height: 100%;
+                                   }
+               
+                                   .contenedorNosotros .navegador{
+                                       background: black;
+                                       grid-column: 1 / 7;
+                                       grid-row: 2 / 3;
+                                       height: 28.4px;
+                                   }
+               
+                                   .contenedorNosotros .descripcion{
+                                       grid-column: span 6;
+                                       padding: 20px;
+                                       height: 160px;
+                                   }
+               
+                                   .contenedorNosotros .piePagina{
+                                       grid-column:span 6;
+                                       height: 80px;
+                                       margin-top: 25px;
+                                       margin-left: 15px;
+                                   }
+               
+                                   /*
+                                   -----------------------------------
+                                       CONTENEDOR SERVICIOS
+                                   -----------------------------------
+                                   */
+               
+                                   .contenedorServicios{
+                                       width: 100%;
+                                       max-width: 480px; /*Ancho maximo de 1000px*/
+                                       margin: auto;
+                                       display: grid; /*Agregamos el Grid*/
+                                       grid-template-columns: repeat(6, 1fr);
+                                       grid-template-rows: repeat(4, auto);
+                                   }
+               
+                                   .contenedorServicios .header{
+                                       grid-column-start: 1;
+                                       grid-column-end: 7;
+                                       height: 80px;
+                                   }
+               
+               
+                                   .contenedorServicios .portada{
+                                       background-color: white;
+                                       grid-column: span 7;
+                                       grid-row: 3 / 4;
+                                       height: 100%;
+                                   }
+               
+                                   .contenedorServicios .navegador{
+                                       background: black;
+                                       grid-column: 1 / 7;
+                                       grid-row: 2 / 3;
+                                       height: 28.4px;
+                                   }
+               
+                                   .contenedorServicios .descripcion{
+                                       grid-column: span 6;
+                                       padding: 20px;
+                                       height: 160px;
+                                   }
+               
+                                   .contenedorServicios .piePagina{
+                                       grid-column:span 6;
+                                       height: 80px;
+                                       margin-top: 25px;
+                                       margin-left: 15px;
+                                   }
+               
+               
+                                   /*
+                                   -----------------------------------
+                                       CONTENEDOR TRABAJOS
+                                   -----------------------------------
+                                   */
+               
+                                   .contenedorTrabajos{
+                                       width: 100%;
+                                       max-width: 480px; /*Ancho maximo de 1000px*/
+                                       margin: auto;
+                                       display: grid; /*Agregamos el Grid*/
+                                       grid-template-columns: repeat(6, 1fr);
+                                       grid-template-rows: repeat(4, auto);
+                                   }
+               
+                                   .contenedorTrabajos .header{
+                                       grid-column-start: 1;
+                                       grid-column-end: 7;
+                                       grid-row: 1 / 2;
+                                       height: 80px;
+                                   }
+               
+               
+                                   .contenedorTrabajos .portada{
+                                       background-color: white;
+                                       grid-column: span 7;
+                                       grid-row: 3 / 4;
+                                       height: 100%;
+                                   }
+               
+                                   .contenedorTrabajos .navegador{
+                                       background: black;
+                                       grid-column: 1 / 7;
+                                       grid-row: 2 / 3;
+                                       height: 28.4px;
+                                   }
+               
+                                   .contenedorTrabajos .descripcion{
+                                       grid-column: span 6;
+                                       padding: 20px;
+                                       height: 160px;
+                                   }
+               
+                                   .contenedorTrabajos .piePagina{
+                                       grid-column:span 6;
+                                       height: 80px;
+                                       margin-top: 5px;
+                                       margin-left: 15px;
+                                   }
+               
+               
+                                   /*
+                                   -----------------------------------
+                                       CONTENEDOR CONTACTO
+                                   -----------------------------------
+                                   */
+               
+                                   .contenedorContacto{
+                                       width: 100%;
+                                       max-width: 480px; /*Ancho maximo de 1000px*/
+                                       margin: auto;
+                                       display: grid; /*Agregamos el Grid*/
+                                       grid-template-columns: repeat(6, 1fr);
+                                       grid-template-rows: repeat(4, auto);
+                                   }
+               
+                                   .contenedorContacto .header{
+                                       grid-column-start: 1;
+                                       grid-column-end: 7;
+                                       grid-row: 1 / 2;
+                                       height: 80px;  
+                                   }
+               
+               
+                                   .contenedorContacto .portada{
+                                       background-color: white;
+                                       grid-column: span 7;
+                                       grid-row: 3 / 4;
+                                       height: 100%;
+                                   }
+               
+                                   .contenedorContacto .navegador{
+                                       background: black;
+                                       grid-column: 1 / 7;
+                                       grid-row: 2 / 3;
+                                       height: 28.4px;
+                                   }
+               
+                                   .contenedorContacto .descripcion{
+                                       grid-column: span 6;
+                                       padding: 20px;
+                                       height: 280px;
+                                   }
+               
+                                   .contenedorContacto .piePagina{
+                                       grid-column:span 6;
+                                       height: 80px;
+                                       margin-top: 25px;
+                                       margin-left: 15px;
+                                   }
+               
+               
+                                   form {
+                                       /*
+                                     -------------------------------------------------------------
+                                     Todo este codigo es para el formulario de ña seccion contacto
+                                     -------------------------------------------------------------
+                                     */
+                                       width: 250px;
+                                       height: 270px;
+                                       margin: auto;
+                                       background: rgb(202, 202, 202);
+                                       padding: 10px 20px;
+                                       box-sizing: border-box;
+                                       margin-top: 20px;
+                                       border-radius: 5px; }
+                                       form .formularioH1 {
+                                         text-align: center;
+                                         padding-top: 50px;
+                                         font-size: 50px;
+                                         color: #1d521f;
+                                         font-family: 'Architects Daughter', cursive, 'Caveat', 
+                                      cursive,'Lobster', cursive;
+                                         text-transform: uppercase; }
+                                       form h2 {
+                                         color: white;
+                                         text-align: center;
+                                         margin: 0;
+                                         font-size: 15px;
+                                         margin-bottom: 3px; }
+                                       form input, form textarea {
+                                         width: 100%;
+                                         margin-bottom: 10px;
+                                         padding: 2px;
+                                         box-sizing: border-box;
+                                         font-size: 10px; }
+                                       form textarea {
+                                         min-height: 100px;
+                                         max-height: 100px;
+                                         max-width: 100%;
+                                         min-width: 100%; }
+                                       form #boton {
+                                         color: white;
+                                         background-color: #aaaaaa;
+                                         border: none; }
+                                       form #boton:hover {
+                                         background-color: #308bd6; }
+                                 }
+               
+               
+
+                            /*
+                    ---------------------------------------------------------------------------------------------------------------------------
+                        MEDIDAS DESDE 320PXX A 480PX ..............  MEDIDAS DESDE 320PXX A 480PX  ...........  MEDIDAS DESDE 320PXX A 480PX
+                        MEDIDAS DESDE 320PXX A 480PX ..............  MEDIDAS DESDE 320PXX A 480PX  ...........  MEDIDAS DESDE 320PXX A 480PX
+                        MEDIDAS DESDE 320PXX A 480PX ..............  MEDIDAS DESDE 320PXX A 480PX  ...........  MEDIDAS DESDE 320PXX A 480PX
+                        MEDIDAS DESDE 320PXX A 480PX ..............  MEDIDAS DESDE 320PXX A 480PX  ...........  MEDIDAS DESDE 320PXX A 480PX
+                        MEDIDAS DESDE 320PXX A 480PX ..............  MEDIDAS DESDE 320PXX A 480PX  ...........  MEDIDAS DESDE 320PXX A 480PX
+                        MEDIDAS DESDE 320PXX A 480PX ..............  MEDIDAS DESDE 320PXX A 480PX  ...........  MEDIDAS DESDE 320PXX A 480PX
+                        MEDIDAS DESDE 320PXX A 480PX ..............  MEDIDAS DESDE 320PXX A 480PX  ...........  MEDIDAS DESDE 320PXX A 480PX
+                        MEDIDAS DESDE 320PXX A 480PX ..............  MEDIDAS DESDE 320PXX A 480PX  ...........  MEDIDAS DESDE 320PXX A 480PX
+                    ----------------------------------------------------------------------------------------------------------------------------------
+                    */
+
+
+
+          @media only screen and (min-width:320px) and (max-width:480px)
+          
+          {
+                                /*
+                ------------------------------------------------------------
+                Se colocan las imagenes de mascotas y logos de clientes, 
+                una alado de otra en una fila, y se centra la etiqueta aside
+                -------------------------------------------------------------
+                */
+                .seccionCliente{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    
+                }
+
+                    .decorCliente{
+                        width: 33%;
+                        height: 33%;
+                        border-bottom: 0.1px solid rgb(224, 224, 224);
+                        border-right: 0.1px solid rgb(224, 224, 224); 
+                    }
+
+                
+
+                /*
+                ---------------------------------------------------------------------
+                Se alinean las opciones de botones del navegador en columna y se 
+                posicionan en el margen superior derecho
+                ----------------------------------------------------------------------
+                */
+                #menu ul{
+                    margin: 0px;
+                    padding: 0px;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row ;
+                    flex-wrap: nowrap;
+                    line-height: 25px;
+                    
+                }
+                
+                /*
+                ------------------------------------------------------------------------------
+                Propiedadesde color, tamaño y margenes del texto de las opciones del navegador
+                ------------------------------------------------------------------------------
+                */
+                #menu #item a{
+                    text-decoration: none;
+                    color: white;
+                    text-align: center;
+                    font-size: 0.5em;
+                    margin: 15px;
+                    
+                }
+                
+                
+                /*
+                -----------------------------------------------------------------------------
+                Propidades de colores de texto y botones a la lista de opciones del navegador
+                -----------------------------------------------------------------------------
+                */
+                #item{
+                    background-color: black;
+                    color: white;
+                    padding: 0.2px;
+                    width: 62px;
+                    
+                }
+                
+                /*
+                --------------------------------------------------------------
+                Cuando me posiciono en cada una de las opciones del navegador, 
+                cambian por un color azulado
+                --------------------------------------------------------------
+                    */
+                
+                #menu #item:hover{
+                    background-color: rgb(48, 139, 214);
+                }
+
+                .titulos {
+                    /*
+                ----------------------------------------------------------------------
+                Propiedad de estilos de colores, tamaños y fuentes para 
+                las secciones de nosotros, trabajos, servicios y contacto en los titulos
+                -------------------------------------------------------------------------
+                */
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    color: rgb(41, 119, 150);
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 15px;
+                    font-family: 'Architects Daughter', cursive, 'Caveat', cursive,'Lobster', cursive;
+                    text-transform: uppercase; 
+                    justify-content: center;
+                }
+                
+                .parrafo {
+                    /*
+                --------------------------------------------------------------------------
+                Propiedad de estilos de colores, tamaños y fuentes para 
+                las secciones de nosotros, trabajos, servicios y contacto en los parrafos
+                ----------------------------------------------------------------------------
+                */
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    color: black;
+                    font-weight: bolder;
+                    font-size: 10px;
+                    font-family: fantasy,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    text-align: left,justify; 
+                    }
+
+                    header .logoNavegador {
+                        /*
+                      -------------------------------------------
+                       Dimensiones del logo en barra de navegacion
+                       --------------------------------------------
+                      */
+                        margin-top: 2px;
+                        width: 70px;
+                        height: 70px; 
+                    
+                        }
+                    
+
+                    .dimensionVideo{
+                        width: 100%;
+                        height: 150px;
+                    }
+
+                    /*
+                    -----------------------------------------------------------------
+                    Propiedades de margenes y tamaño a las imagenes de redes sociales
+                    -------------------------------------------------------------------
+                    */
+                    .redesLogo{
+                        margin-top: 2px;
+                        margin-bottom: 10px;
+                        width: 18px;
+                        height: 18px;
+                }
+
+                    .textoPiePag{
+                        font-size: 10px;
+                    }
+
+
+                    .imagenesPortadas{
+                        height:150px;
+                    }
+
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR DEL INDEX
+                    -----------------------------------
+                    */
+
+                    .contenedor{
+                        width: 100%;
+                        max-width: 320px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedor .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        height: 80px;
+                    }
+
+
+                    .contenedor .video{
+                        background-color: white;
+                        grid-column: span 7;
+                        height: 100%;
+                        grid-row: 3 / 4;
+                    }
+
+                    .contenedor .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 28.4px;
+                    }
+
+                    .contenedor .cliente{
+                        grid-column: span 7;
+                        padding: 20px;
+                        height: 100%;
+                        grid-row: 4 / 5;
+                    }
+
+                    .contenedor .piePagina{
+                        grid-column:span 6;
+                        grid-row: 5 / 6;
+                        height: 80px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR NOSOTROS
+                    -----------------------------------
+                    */
+
+                    .contenedorNosotros{
+                        width: 100%;
+                        max-width: 320px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedorNosotros .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        height: 80px;
+                    }
+
+
+                    .contenedorNosotros .portada{
+                        background-color: white;
+                        grid-column: span 7;
+                        grid-row: 3 / 4;
+                        height: 100%;
+                    }
+
+                    .contenedorNosotros .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 28.4px;
+                    }
+
+                    .contenedorNosotros .descripcion{
+                        grid-column: span 6;
+                        padding: 20px;
+                        height: 160px;
+                    }
+
+                    .contenedorNosotros .piePagina{
+                        grid-column:span 6;
+                        height: 80px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR SERVICIOS
+                    -----------------------------------
+                    */
+
+                    .contenedorServicios{
+                        width: 100%;
+                        max-width: 320px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedorServicios .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        height: 80px;
+                    }
+
+
+                    .contenedorServicios .portada{
+                        background-color: white;
+                        grid-column: span 7;
+                        grid-row: 3 / 4;
+                        height: 100%;
+                    }
+
+                    .contenedorServicios .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 28.4px;
+                    }
+
+                    .contenedorServicios .descripcion{
+                        grid-column: span 6;
+                        padding: 20px;
+                        height: 160px;
+                    }
+
+                    .contenedorServicios .piePagina{
+                        grid-column:span 6;
+                        height: 80px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR TRABAJOS
+                    -----------------------------------
+                    */
+
+                    .contenedorTrabajos{
+                        width: 100%;
+                        max-width: 320px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedorTrabajos .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        grid-row: 1 / 2;
+                        height: 80px;
+                    }
+
+
+                    .contenedorTrabajos .portada{
+                        background-color: white;
+                        grid-column: span 7;
+                        grid-row: 3 / 4;
+                        height: 100%;
+                    }
+
+                    .contenedorTrabajos .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 28.4px;
+                    }
+
+                    .contenedorTrabajos .descripcion{
+                        grid-column: span 6;
+                        padding: 20px;
+                        height: 160px;
+                    }
+
+                    .contenedorTrabajos .piePagina{
+                        grid-column:span 6;
+                        height: 80px;
+                        margin-top: 5px;
+                        margin-left: 15px;
+                    }
+
+
+                    /*
+                    -----------------------------------
+                        CONTENEDOR CONTACTO
+                    -----------------------------------
+                    */
+
+                    .contenedorContacto{
+                        width: 100%;
+                        max-width: 320px; /*Ancho maximo de 1000px*/
+                        margin: auto;
+                        display: grid; /*Agregamos el Grid*/
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                    }
+
+                    .contenedorContacto .header{
+                        grid-column-start: 1;
+                        grid-column-end: 7;
+                        grid-row: 1 / 2;
+                        height: 80px;  
+                    }
+
+
+                    .contenedorContacto .portada{
+                        background-color: white;
+                        grid-column: span 7;
+                        grid-row: 3 / 4;
+                        height: 100%;
+                    }
+
+                    .contenedorContacto .navegador{
+                        background: black;
+                        grid-column: 1 / 7;
+                        grid-row: 2 / 3;
+                        height: 28.4px;
+                    }
+
+                    .contenedorContacto .descripcion{
+                        grid-column: span 6;
+                        padding: 20px;
+                        height: 280px;
+                    }
+
+                    .contenedorContacto .piePagina{
+                        grid-column:span 6;
+                        height: 80px;
+                        margin-top: 25px;
+                        margin-left: 15px;
+                    }
+
+
+                    form {
+                        /*
+                      -------------------------------------------------------------
+                      Todo este codigo es para el formulario de ña seccion contacto
+                      -------------------------------------------------------------
+                      */
+                        width: 250px;
+                        height: 270px;
+                        margin: auto;
+                        background: rgb(202, 202, 202);
+                        padding: 10px 20px;
+                        box-sizing: border-box;
+                        margin-top: 20px;
+                        border-radius: 5px; }
+                        form .formularioH1 {
+                          text-align: center;
+                          padding-top: 50px;
+                          font-size: 50px;
+                          color: #1d521f;
+                          font-family: 'Architects Daughter', cursive, 'Caveat', 
+                       cursive,'Lobster', cursive;
+                          text-transform: uppercase; }
+                        form h2 {
+                          color: white;
+                          text-align: center;
+                          margin: 0;
+                          font-size: 15px;
+                          margin-bottom: 3px; }
+                        form input, form textarea {
+                          width: 100%;
+                          margin-bottom: 10px;
+                          padding: 2px;
+                          box-sizing: border-box;
+                          font-size: 10px; }
+                        form textarea {
+                          min-height: 100px;
+                          max-height: 100px;
+                          max-width: 100%;
+                          min-width: 100%; }
+                        form #boton {
+                          color: white;
+                          background-color: #aaaaaa;
+                          border: none; }
+                        form #boton:hover {
+                          background-color: #308bd6; }
+                
+                
+                        
+
+                 }
+
+
+
